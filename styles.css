@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f6f6;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.feed {
+    width: 40%;
+    border-right: 10px solid #ccc;
+}
+
+.post-form {
+    width: 30%;
+    padding-left: 40px;
+    padding-top: 10%;
+}
+
+.post-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.tweet {
+    width: 70%;
+    padding-left: 40px;
+    padding-top: 10%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-right: 100px;
+}
+
+.button {
+    background-color: #121bc6;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.comment-form textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.comment {
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.feed-container {
+    height: 400px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
